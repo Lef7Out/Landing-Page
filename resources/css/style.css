@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .logo{
     width: 100px;
@@ -48,4 +48,61 @@ a{
 a:hover{
     text-decoration: underline;
     transition: 1s;
+}
+
+
+
+.Image{
+    width: 700px;
+    box-shadow: 0, 0, 2, 7px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 84vh;
+    padding: 20px, auto;
+}
+
+.description{
+    max-width: 400px;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-top: 1.5px;
+}
+
+h1{
+    font-size: 65px;
+    color: whitesmoke;
+    text-shadow: black 0.5px, 0.5px, 0.5px;
+}
+
+button{
+    padding: 20px 60px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
+    font-size: 15px;   
+}
+
+.btn{
+    background-color: blue;
+    color: whitesmoke;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 6px;
+}
+.right_cnt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.button:hover{
+    background-color: blue;
 }
